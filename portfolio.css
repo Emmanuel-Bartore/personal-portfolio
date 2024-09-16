@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+#header{
+    background-color: #1E2A38;
+    display: flex;
+    color: #D4AF37;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(32, 31, 31, 0.26); /* Box shadow */
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above all other elements */
+    top: 0; /* Stick to the top */
+}
+section{
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 95px;
+}
+
+nav ul{
+    display: flex;  
+    gap: 15px;
+    margin-right: 10px
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #F4F4F9;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+    border-radius: 5px;
+}
+
+#welcome-section{
+   padding: 0; 
+   
+}
+
+#welcome-secton, #welcome-img{
+     width: 100%;
+     height: 100vh; 
+     margin-top: 6.3rem; 
+     display: block; /* Prevent images from being treated as inline elements */
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 1, 66);
+    position: absolute;
+    top: 15.5%;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.overlay h1{
+    padding-top: 200px;
+    font-size: 4rem;
+}
+
+#projects{
+    background-color: crimson;
+    height: 500px;
+    padding-bottom: 60px;
+    color: #ffffff;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.project-container{
+    width: 300px;
+    background-color: #D9E3F0;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 300px;
+}
+
+.project-container img{
+    width: 100%;   
+    height: 200px;
+}
+.project-container h3{
+    padding: 20px;
+    background-color: #1D3557;
+    color: #F4F4F9;
+    border-radius: 8px;
+}
+.project-container h3:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: #172d46;
+    color: #F4F4F9;
+}
+
+#Skills{
+    background-color: #243447;
+    color: #F4F4F9;
+    text-align: center;
+    
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-container{
+    width: 300px;
+    background-color:#f9f9f9;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.skill-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #1E2A38;
+}
+
+footer{
+    background-color: #D4AF37;
+    color: #1E2A38;      
+}
+footer p{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.4rem;
+}
+
+footer h2{
+    font-size: 3rem;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #1E2A38;
+    font-size: 1.5rem;
+    padding-bottom: 95px;
+    font-weight: normal;
+   
+}
+
+.social-icons a:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out;
+}
+
+hr{
+    border: 3px solid #1E2A38;
+    margin-bottom: 10px;
+}
+hr p{
+    padding-top: 15px;
+}
+#heart{
+    color: red;
+}
